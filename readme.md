@@ -13,7 +13,7 @@ The JoCare plugins are core components of the JoCare WordPress ecosystem, tailor
 **Requires**: WordPress 4.7+, PHP 7.0
 **License**: GPLv2 or later
 
-The JoCare Ovulation Calculator estimates ovulation likelihood based on the user’s last menstrual period and average cycle length. It uses data from peer-reviewed research (Sarah Johnson et al., 2018) to display percentage-based ovulation probabilities on an interactive calendar. **The interface is designed to be navigable and understandable by individuals with disabilities, adhering to WCAG guidelines for visual and cognitive accessibility. Key instructions and explanations are accompanied by links to YouTube videos featuring sign language interpretation and detailed text descriptions.**
+The JoCare Ovulation Calculator estimates ovulation likelihood based on the user’s last menstrual period and average cycle length. It uses data from peer-reviewed research (Sarah Johnson et al., 2018) to display percentage-based ovulation probabilities on an interactive calendar. **The interface is designed to be navigable and understandable by individuals with disabilities, adhering to WCAG guidelines for visual and cognitive accessibility. Key instructions and explanations are accompanied by links to YouTube videos featuring sign language interpretation and detailed text descriptions.** Future enhancements might investigate how **AI** could analyze individual cycle patterns to refine predictions.
 
 **Key Features**:
 - **Input**: First day of last period and average cycle length. **Forms are labeled and structured for screen reader compatibility. Where applicable, links to sign language explanations and text descriptions are provided.**
@@ -21,14 +21,14 @@ The JoCare Ovulation Calculator estimates ovulation likelihood based on the user
 - **Integration**: Shortcode (`[jocare-ovulation-calculator]`) or widget. **Both integration methods maintain accessibility, including provisions for sign language and text descriptions.**
 - **Accuracy Note**: Relies on the calendar method; ovulation tests are more precise. **This limitation is clearly communicated with supporting sign language and text.**
 
-**Use Case**: Ideal for fertility blogs, women’s health platforms, or educational sites **seeking to reach a diverse audience, including those who use sign language or require detailed text explanations.**
+**Use Case**: Ideal for fertility blogs, women’s health platforms, or educational sites **seeking to reach a diverse audience, including those who use sign language or require detailed text explanations. Future applications of AI could offer more personalized insights.**
 
 ### 2. JoCare Due Date Calculator
 **Stable Tag**: 1.0.4
 **Requires**: WordPress 4.7+, PHP 7.0
 **License**: GPLv2 or later
 
-The JoCare Due Date Calculator estimates a baby’s due date using the first day of the last menstrual period and average cycle length to approximate ovulation and conception. **Accessibility has been a key consideration in its development, with important information supported by sign language videos via YouTube links and comprehensive text descriptions.**
+The JoCare Due Date Calculator estimates a baby’s due date using the first day of the last menstrual period and average cycle length to approximate ovulation and conception. **Accessibility has been a key consideration in its development, with important information supported by sign language videos via YouTube links and comprehensive text descriptions.** Future iterations could explore using **AI** to provide additional context or related information based on the estimated due date.
 
 **Key Features**:
 - **Input**: Last period start date and cycle length. **Input fields are properly labeled for assistive technologies, with links to sign language explanations and text descriptions provided.**
@@ -37,7 +37,7 @@ The JoCare Due Date Calculator estimates a baby’s due date using the first day
 - **Multilingual**: Supports English, French, and Spanish (since v1.1). **Language selection options are accessible, and key information within each language is supported by sign language and text.**
 - **Accuracy Note**: Provides estimates; consult healthcare providers for precision. **This disclaimer is clearly visible and supported by sign language and text.**
 
-**Use Case**: Perfect for pregnancy blogs, parenting sites, or health organizations **committed to inclusive information that is accessible through multiple formats, including sign language and detailed text.**
+**Use Case**: Perfect for pregnancy blogs, parenting sites, or health organizations **committed to inclusive information that is accessible through multiple formats, including sign language and detailed text. Future AI enhancements might offer links to relevant resources or support groups.**
 
 ### 3. JoCare Fertility Tracker (In Development)
 **Status**: Beta
@@ -79,26 +79,26 @@ All JoCare plugins are designed for easy and **accessible** integration into the
    - Upload the plugin folder to `/wp-content/plugins/`. **This method requires file system access.**
    - Activate via the **Plugins** menu. **The WordPress admin interface is generally accessible.**
 3. **Configuration**:
-   - Access settings under **Tools** for each plugin. **Plugin settings will be designed with accessibility in mind, including clear instructions with potential sign language and text support.**
+   - Access settings under **Tools** for each plugin. **Plugin settings will be designed with accessibility in mind, including clear instructions with potential sign language and text support.** Future updates might explore **AI-powered configuration assistance.**
    - Use shortcodes or widgets to embed tools in pages, posts, or sidebars. **Ensure that the surrounding content and layout are also accessible and that embedded elements retain sign language and text support.**
 
 ## Technical Details
 - **Compatibility**: Tested up to WordPress 5.9.1 (Ovulation), 6.0 (Due Date); upcoming plugins will support 5.0+. **Ongoing testing includes accessibility checks, including the usability of sign language and text descriptions.**
 - **Dependencies**: PHP 7.0+ (7.2+ for upcoming plugins).
-- **Customization**: Admins can adjust display options; Due Date Calculator supports language selection. **Customization options will be designed to not negatively impact accessibility or the availability of sign language and text support.**
+- **Customization**: Admins can adjust display options; Due Date Calculator supports language selection. **Customization options will be designed to not negatively impact accessibility or the availability of sign language and text support.** Future enhancements might consider **AI-driven suggestions for optimal accessibility settings.**
 - **Performance**: Optimized for minimal resource usage. **Performance considerations include ensuring smooth loading of embedded sign language videos and text content for all users.**
-- **Scientific Basis**: Ovulation Calculator leverages peer-reviewed data; Due Date Calculator uses obstetric standards; upcoming plugins will **utilize AI ethically and responsibly, complementing the scientific basis with data-driven insights, ensuring explanations are accessible through sign language and text.**
+- **Scientific Basis**: Ovulation Calculator leverages peer-reviewed data; Due Date Calculator uses obstetric standards; upcoming plugins will **utilize AI ethically and responsibly, complementing the scientific basis with data-driven insights, ensuring explanations are accessible through sign language and text.** Existing plugins may also explore how **AI** could provide users with links to relevant scientific literature in an accessible format.
 
 ## Why JoCare Plugins?
 These plugins are purpose-built for the JoCare WordPress platform, aligning with JoCare’s mission to empower women’s health **in an accessible manner through user-centric design, innovative technology, and a commitment to providing information through multiple accessible formats, including sign language videos and detailed text descriptions**:
 - **Native Integration**: Seamless and **accessible** compatibility with WordPress for effortless setup.
-- **User-Centric Design**: Intuitive interfaces with clear, actionable, and **accessible** outputs, **with key information supported by sign language and text.**
+- **User-Centric Design**: Intuitive interfaces with clear, actionable, and **accessible** outputs, **with key information supported by sign language and text. Future iterations may use AI to personalize the interface based on user preferences.**
 - **Innovative Roadmap**: Upcoming plugins introduce cutting-edge features like predictive analytics and wearable integration, **with accessibility as a key development principle and AI driving advanced functionalities, ensuring explanations are available in sign language and text.**
 - **Reliability**: Grounded in scientific methods, with clear guidance on limitations, **presented in an accessible format, with AI potentially contributing to more nuanced analysis, explained through sign language and text.**
 - **Community Impact**: Supports JoCare’s goal of accessible, education-driven health tools **for all members of the community, potentially using AI to tailor information to diverse needs, with a consistent focus on providing sign language and text support.**
 
 ## Credits
-Developed by [trusted-kigali-developers](https://kigalidevelopers.com/) for [JoCare](https://www.jocare.rw/), a leader in women’s reproductive health **and a champion for inclusivity and technological advancement, recognizing the importance of accessible communication through sign language and detailed text.**
+Developed by [trusted-kigali-developers](https://kigalidevelopers.com/) for [JoCare](https://www.jocare.rw/), a leader in women’s reproductive health **and a champion for inclusivity and technological advancement, recognizing the importance of accessible communication through sign language and detailed text, and exploring the ethical use of AI to enhance user experience.**
 
 ## License
 All plugins are licensed under [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html), ensuring open-source flexibility and the ability for **accessibility modifications, AI-driven enhancements, and the integration of community-contributed sign language interpretations and text descriptions.**
